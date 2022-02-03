@@ -79,7 +79,7 @@ p{
     width: 21rem;
     border-radius: 0.5rem;
     margin-bottom: 3rem;
-    background-image: linear-gradient(to bottom, hsla(288, 64%, 26%, 0.6) 31%, var(--cardbackground) 0%),url(./../images/image-header-desktop.jpg);
+    background-image: linear-gradient(to bottom, hsla(295, 56%, 21%, 0.6) 31%, var(--cardbackground) 0%),url(./../images/image-header-desktop.jpg);
     background-repeat: repeat,no-repeat;
     background-position: top;
     background-size: contain;    
@@ -87,10 +87,11 @@ p{
 @media (min-width: 768px){
     .card{
         width: 85rem;
-        background-image: linear-gradient(to left, hsla(277, 64%, 61%, 0.5) 50%, var(--cardbackground) 0%),url(./../images/image-header-desktop.jpg);
+        background-image: linear-gradient(to left, hsla(295, 56%, 21%, 0.6) 50%, var(--cardbackground) 0%),url(./../images/image-header-desktop.jpg);
         background-position: right;
         background-size: cover, 50% 100%;
         height: auto;
+        margin-bottom: 5rem;
     }
 }
 .container{
@@ -109,8 +110,6 @@ p{
 }
 
 .cardText{
-    /* width: 70%;  */
-    /* margin: 0 auto; */
     padding: 1rem 1.5rem;
     grid-row: 2/3;    
 }
@@ -172,10 +171,12 @@ p{
     }
 }
 
-.attribution { 
-    font-size: 11px; 
+.attribution p{ 
+    font-size: 12px; 
+    color: var(--mainheading_stats);
     text-align: center; 
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: var(--statheadings_transparent);
+    text-decoration: none;
 }
