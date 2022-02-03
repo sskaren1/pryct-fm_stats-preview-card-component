@@ -2,6 +2,9 @@
 #####################################################
 ## Please do not remove lines 5 and 6 - thanks! 🙂 ##
 #####################################################
+README-template.md
+style-guide.md
+
 *.sketch
 *.fig
 
@@ -15,5 +18,3 @@
 .DS_Store
 .prettierignore
 
-.README-template.md
-.style-guide.md
